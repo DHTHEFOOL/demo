@@ -4,8 +4,6 @@ import csv
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.io import wavfile
-
-# --- CẤU HÌNH THAM SỐ ---
 AUDIO_DIR = "./audio_files"        # Thư mục chứa các file .wav
 OUTPUT_CSV = "ground_truth.csv"    # File CSV xuất kết quả
 MAX_FILES = 10                     # Số lượng file cần gán nhãn thủ công
